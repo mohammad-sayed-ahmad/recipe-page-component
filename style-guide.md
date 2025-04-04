@@ -29,10 +29,7 @@ The designs were created to the following widths:
 
 - Font size (h1): 39px
 - Font size (h2): 28px
-- Font size (h3): 18px
 - Font size (paragraph): 16px
-
-
 
 ### Fonts
 
