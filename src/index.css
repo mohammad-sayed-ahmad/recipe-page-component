@@ -87,6 +87,15 @@ table {
 
   td {
     border-bottom: 1px solid var(--stone-150);
+    padding-block: 1vi;
   }
 }
 
+.bold {
+  color: var(--brown-800);
+  font-weight: 700;
+}
+
+hr {
+  border: 1px solid var(--stone-150);
+}
