@@ -71,5 +71,22 @@ li {
   &::marker {
     color: var(--brown-800);
     font-weight: 700;
+    font-variant: small-caps;
   }
 }
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  inline-size: 100%;
+
+  caption {
+    text-align: start;
+    margin-block-end: 1vi;
+  }
+
+  td {
+    border-bottom: 1px solid var(--stone-150);
+  }
+}
+
