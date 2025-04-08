@@ -23,12 +23,13 @@ body {
   display: flex;
   justify-content: center;
 
+  margin: 0;
+
   color: var(--stone-600);
-  font-family: "Outfit", "Franklin Gothic Medium", "Arial Narrow", Arial,
-    sans-serif;
+  font-family: "Outfit", "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 main {
@@ -36,7 +37,7 @@ main {
 
   box-sizing: border-box;
   max-inline-size: 46rem;
-  margin-block-start: 125px;
+  margin-block: 7.8125rem; /*125px*/
   padding: 40px;
 
   border-radius: 40px;
@@ -46,6 +47,7 @@ main {
     border-radius: 20px;
   }
 }
+
 
 h1 {
   color: var(--stone-900);
@@ -67,7 +69,7 @@ ul > li {
 
 li {
   margin-block-end: 1vi;
-
+  
   &::marker {
     color: var(--brown-800);
     font-weight: 700;
@@ -79,12 +81,12 @@ table {
   table-layout: fixed;
   border-collapse: collapse;
   inline-size: 100%;
-
+  
   caption {
     text-align: start;
     margin-block-end: 1vi;
   }
-
+  
   td {
     border-bottom: 1px solid var(--stone-150);
     padding-block: 1vi;
@@ -98,4 +100,22 @@ table {
 
 hr {
   border: 1px solid var(--stone-150);
+}
+
+
+
+/* Mobile edits */
+@media screen and (width < 450px) {
+  main {
+    margin-block: 0;
+    border-radius: 0;
+  
+    img {
+      border-radius: 0;
+    }
+  }
+
+  h1, h2 {
+    line-height: 1;
+  }
 }
