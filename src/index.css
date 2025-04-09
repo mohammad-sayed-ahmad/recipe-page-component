@@ -102,7 +102,7 @@ hr {
 }
 
 /* Mobile edits */
-@media screen and (width < 450px) {
+@media screen and (width < 500px) {
   main {
     margin-block: 0;
     border-radius: 0;
