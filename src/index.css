@@ -122,4 +122,9 @@ hr {
   h2 {
     line-height: 1;
   }
+
+  table {
+    box-sizing: border-box;
+    inline-size: calc( 100% - 40px );
+  }
 }
