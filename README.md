@@ -42,7 +42,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - To table border styling work, use `table td`.
 - You can use: `line-height: 1.5;`
-- `1vi` means one line
+- `1em` means one line
 
 
 ### Continued development
